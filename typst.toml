@@ -1,16 +1,8 @@
-[template]
+[package]
 name = "school-notes"
-version = "0.0.1"
+version = "0.1.0"
+entrypoint = "lib.typ"
+
+[template]
+path = "template"
 entrypoint = "main.typ"
-authors = ["Sibald Hulselmans"]
-license = "MIT"
-description = "A Typst template for creating structured school notes with customizable title, course, date, author, glossary support, and styled note and definition blocks."
-keywords = ["school", "notes", "study", "glossary", "education"]
-categories = ["academic", "notes"]
-exclude = ["*.md", ".gitignore"]
-
-[dependencies]
-"glossy" = "0.8.0"
-
-[compiler]
-version = ">=0.11.0"

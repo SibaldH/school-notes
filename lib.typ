@@ -1,4 +1,5 @@
 #import "@preview/glossy:0.8.0": *
+#import "@preview/cheq:0.3.0": checklist
 
 #let school_notes(
   title: "Untitled Notes",
@@ -34,6 +35,7 @@
   ]
 
   show: init-glossary.with(glossary-data, term-links: true)
+  show: checklist
 
   // Content
   body

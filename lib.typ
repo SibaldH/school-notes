@@ -70,3 +70,17 @@
     ]
   )
 }
+
+#let formula(title: "formula", content: none) = {
+  block(
+    fill: rgb("#ff6b6b"),
+    stroke: rgb("#c0392b"),
+    inset: 10pt,
+    radius: 5pt,
+    width: 100%,
+    [
+      *Formula: #title* \
+      #content
+    ]
+  )
+}

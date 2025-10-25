@@ -1,4 +1,4 @@
-#import "@local/school-notes:0.1.0": school_notes, note_block, definition
+#import "@local/school-notes:0.1.0": school_notes, note_block, definition, formula
 
 #let glossaries = (
   html: (
@@ -69,4 +69,8 @@
 #note_block(title: "Limit Basics", content: [
   - A limit describes the behavior of a function as it approaches a point.
   - Notation: $lim_(x->a) f(x)$.
+])
+
+#formula(title: "Ohm", content: [
+  $R = U/I$
 ])
